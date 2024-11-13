@@ -1,17 +1,17 @@
-HEPATITIS-C DETECTION USING C5.0 ALGORITHM WITH CHI-SQUARE FEATURE SELECTION
+## HEPATITIS-C DETECTION USING C5.0 ALGORITHM WITH CHI-SQUARE FEATURE SELECTION
 The development of a Hepatitis-C detection system using the C5.0 algorithm integrated with Chi-Square feature selection to enhance diagnostic accuracy and identify key predictive features, aimed at supporting early disease detection and improving patient outcomes
 
-About
+## About
 Hepatitis-C Detection Using C5.0 Algorithm with Chi-Square Feature Selection is a project focused on enhancing the early detection of Hepatitis-C by utilizing a powerful combination of machine learning techniques. The C5.0 algorithm, a decision tree-based model, is employed to classify patient data with high accuracy. By integrating Chi-Square feature selection, the project identifies the most significant features, improving model efficiency and interpretability. Traditional diagnostic methods often rely heavily on extensive tests and manual analysis, which can be time-consuming and costly. This project aims to streamline the detection process, assisting healthcare professionals in making early, reliable diagnoses with a focus on user-friendly and effective machine learning solutions.
 
-Features
+## Features
 Utilizes the C5.0 algorithm for accurate classification of Hepatitis-C cases.
 Implements Chi-Square feature selection to identify the most relevant features, enhancing model efficiency.
 Reduces the complexity of the diagnostic process through data-driven insights.
 High scalability for handling large datasets, suitable for clinical applications.
 Low time complexity for rapid predictions, supporting real-time diagnostic needs.
 Designed for easy deployment and integration with healthcare systems.
-Requirements
+## Requirements
 Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
 Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
 Machine Learning Frameworks:Scikit-Learn,TensorFlow,PyTorch,Keras,XGBoost,LightGBM,Apache Spark MLlib.
@@ -21,7 +21,7 @@ Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), Ten
 System Architecture
 ac
 
-Program
+## Program
 # Step 1: Import necessary libraries
 import numpy as np
 import pandas as pd
@@ -135,12 +135,12 @@ op-1
 Output2 - Detection with details:
 op-2
 
-Results and Impact
+## Results and Impact
 The Hepatitis-C Detection System significantly improves early detection rates of Hepatitis-C by utilizing an optimized machine learning model. The combination of the C5.0 algorithm with Chi-Square feature selection yields high accuracy and efficiency, reducing the need for extensive and costly medical tests.
 
 This project provides a valuable tool for healthcare professionals, supporting quicker and more reliable diagnosis, which can lead to timely treatments and better patient outcomes. By leveraging data-driven insights, the system paves the way for future advancements in medical diagnostic technology and contributes to more accessible, accurate healthcare solutions.
 
-Articles published / References
+## Articles published / References
 [1] Alizargar, A., Chang, Y., and Tan, T., “Performance Comparison of Machine Learning Approaches on Hepatitis C Prediction Employing Data Mining Techniques,” MDPI Journals, vol. 10, no. 481, Apr. 2023, doi: bioengineering10040481.
 [2] Andeli, N., Lorencin, I., Šegota, S. B., and Ca, Z., “The Development of Symbolic Expressions for the Detection of Hepatitis C Patients and the Disease Progression from Blood Parameters Using Genetic Programming-Symbolic Classification Algorithm,” MDPI Journals, vol. 13, no. 574, Dec. 2022, doi: 13010574.
 [3] Sedeno-Monge, V., et al., “A comprehensive update of the status of hepatitis C virus (HCV) infection in Mexico—A systematic review and meta-analysis (2008–2019),” Ann Hepatol, vol. 20, pp. 1–11, Jan. 2021, doi: https://doi.org/10.1016/j.aohep.2020.100292.
