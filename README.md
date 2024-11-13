@@ -18,10 +18,12 @@ Machine Learning Frameworks:Scikit-Learn,TensorFlow,PyTorch,Keras,XGBoost,LightG
 Version Control: Implementation of Git for collaborative development and effective code management.
 IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
 Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
-System Architecture
-ac
+## System Architecture
+![image](https://github.com/user-attachments/assets/f32f3bd8-aabf-49bf-b06d-6a2b2d887fd8)
+
 
 ## Program
+```
 # Step 1: Import necessary libraries
 import numpy as np
 import pandas as pd
@@ -128,12 +130,13 @@ report = classification_report(y_test, y_pred)
 # Step 9: Print results
 print(f'Accuracy: {accuracy * 100:.2f}%')
 print('Classification Report:\n', report)
-Output
-Output1 - Numeric Columns Ater Normalization:
-op-1
+```
+## Output
+# Output1 - Numeric Columns Ater Normalization:
+![image](https://github.com/user-attachments/assets/561bd7ca-1cc8-44e5-bbb4-15b4a34c8f7b)
 
-Output2 - Detection with details:
-op-2
+# Output2 - Detection with details:
+![image](https://github.com/user-attachments/assets/002dc31b-565e-4cc5-a9b9-998a41206c40)
 
 ## Results and Impact
 The Hepatitis-C Detection System significantly improves early detection rates of Hepatitis-C by utilizing an optimized machine learning model. The combination of the C5.0 algorithm with Chi-Square feature selection yields high accuracy and efficiency, reducing the need for extensive and costly medical tests.
